@@ -9,6 +9,18 @@ Implementation of a virtual Enigma machine in various languages
 * Only full tick rotors
 * Upper case ASCII leters only (65 - 90)
 
+### Rotor implementation validation
+
+> Rotor position *C*
+
+A > C > M > K
+
+K > M > C > A
+
+D > F > G > E
+
+E > F > G > D
+
 ## Rotor settings
 
 `EKMFLGDQVZNTOWYHXUSPAIBRCJ`
@@ -16,3 +28,11 @@ Implementation of a virtual Enigma machine in various languages
 ## Reflector settings
 
 `FKQHTLXOCBJSPDZRAMEWNIUYGV`
+
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+CDEFGHIJKLMNOPQRSTUVWXYZAB
+MFLGDQVZNTOWYHXUSPAIBRCJEK
+
+
+THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG
